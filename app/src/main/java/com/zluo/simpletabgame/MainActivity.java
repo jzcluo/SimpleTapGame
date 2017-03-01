@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         bottomText = (TextView) findViewById(R.id.textBottom);
         topText.setTextColor(Color.BLACK);
         bottomText.setTextColor(Color.BLACK);
-        
+
         tapLimit = Integer.parseInt(getTap().trim());
         String color = getColor();
         colorArray = createColorGradient(Color.BLACK, Color.parseColor(color), tapLimit);
